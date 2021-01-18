@@ -27,7 +27,7 @@ jobs:
     - name: install git lfs
       run: git lfs install
     - name: download new file
-      run:  wget -P ./  https://doc-00-3k-docs.googleusercontent.com/docs/securesc/trd4vktgbqq3hfrhdmsbbfpr17dp3taj/vik8nvfifjv2v60gmti8q056j5pftig4/1610972100000/02284615173248736602/17502095990025850947Z/1X486djAvN31ZMInL0pAiRxwUBUyme4Ks?e=download&nonce=e0j7iq9m1g30s&user=17502095990025850947Z&hash=v3eco18q6uugg55mq1omfj1q5hhsacdu
+      run:  wget -P ./  https://doc-0s-3k-docs.googleusercontent.com/docs/securesc/trd4vktgbqq3hfrhdmsbbfpr17dp3taj/814t0nccvcke0vb2gtglniqao0anu2d9/1610977350000/02284615173248736602/17502095990025850947Z/1xVJf4qT9Qn6NK81GRYYqTX2xMRi1p144?e=download&nonce=292e9au02umg4&user=17502095990025850947Z&hash=5sb546avjbkfghgce75sn55nqd6gm7mu
     - name: install conntrack
       run:  sudo apt-get update && sudo apt-get install conntrack
     - name: show git status
