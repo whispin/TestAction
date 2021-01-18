@@ -36,6 +36,7 @@ jobs:
       run: |
         git lfs install
         git lfs track "*"
+        git lfs untrack './github/workflows/*.yml'
         git add .gitattributes
         git config --global user.email AutoupdateRobot@email.com
         git config --global user.name AutoupdateRobot
